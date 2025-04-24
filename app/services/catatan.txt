@@ -1,0 +1,1 @@
+Logika seperti QR scanner, ticketing, dll ditulis didalam services.
