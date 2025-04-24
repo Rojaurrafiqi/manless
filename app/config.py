@@ -1,13 +1,14 @@
 # Konfigurasi pin GPIO, durasi timer, dll
 GATE_CONFIG = {
     "gate_pin": 13,       # GPIO pin untuk mengontrol gate (relay/servo)
-    "sensor_pin": 22,     # GPIO pin untuk loop detector atau sensor IR
-    "rfid_enabled": True
+    "rfid_enabled": True,
+    "loop1_pin": 27,  # sensor kendaraan sebelum portal
+    "loop2_pin": 22   # sensor kendaraan setelah portal
 }
 
 
 
-"""
+""" 
 gpio pin 2 = (sda)
 gpio pin 3 = (scl)
 gpio 14 = (txd)

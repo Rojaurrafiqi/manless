@@ -1,3 +1,14 @@
-python-escpos==3.0a7
-RPi.GPIO==0.7.1
-picamera==1.13
+# Thermal printer
+python-escpos==3.0a7      # ESC/POS printer control (serial/USB)
+
+# GPIO untuk kontrol pin
+RPi.GPIO==0.7.1           # Kontrol pin GPIO Raspberry Pi
+
+# Kamera (hanya untuk Pi Camera Module V1/V2)
+picamera==1.13            # Kamera Raspberry Pi (Python 2/3 support)
+
+# Audio playback
+pygame==2.1.3             # Versi stabil pygame (pastikan support audio)
+
+# RFID reader MFRC522 (opsional jika digunakan)
+mfrc522                   # Bisa dipasang dari PyPi fork
